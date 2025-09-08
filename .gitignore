@@ -1,0 +1,45 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.joblib
+*.pkl
+*.csv
+*.tsv
+*.png
+!confusion_matrix.png
+*.jpg
+*.jpeg
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.vscode/
+
+# Model artifacts
+*.joblib
+*.pkl
+
+# Data files (don’t commit datasets)
+*.csv
+*.tsv
+
+# Plots & generated outputs
+# Ignore all images except confusion_matrix.png
+*.png
+!confusion_matrix.png
+*.jpg
+*.jpeg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
